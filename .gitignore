@@ -1,3 +1,6 @@
 git-reset-author.sh
 git-set-local.sh
 git-remote-set-url.sh
+bin/
+*.sna
+*.sld
