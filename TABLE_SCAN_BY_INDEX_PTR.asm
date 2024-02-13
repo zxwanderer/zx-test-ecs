@@ -20,6 +20,7 @@ UT_found:
   ld HL, non_empty_table
   call TABLE_SCAN_BY_INDEX_PTR
   TEST_FLAG_C
+  nop ; ASSERTION HL == TestSuite_TABLE_SCAN_BY_INDEX_PTR._findPointer
   TC_END
 
 non_empty_table:
