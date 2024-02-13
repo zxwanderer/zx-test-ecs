@@ -18,6 +18,8 @@
     ; for the unit tests.
     ret
 
+    include "TABLE_SCAN_BY_INDEX_PTR.asm"
+
     MODULE TestSuite_ClearScreen
 
 ; A unit testcase needs to start with "UT_" (upper case letters).
