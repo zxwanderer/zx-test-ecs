@@ -5,7 +5,7 @@
 
   org #6000
 
-  include "defines.inc"
+  include "helpers/defines.inc"
 main:
   ld sp, stack_top
   xor a
@@ -16,6 +16,6 @@ main:
   jr .loop
   
   include "unit_tests.asm"
-  include "stack.asm"
+  include "helpers/stack.asm"
 
   SAVESNA "z80-sample-program.sna", main

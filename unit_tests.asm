@@ -18,5 +18,5 @@
     ; for the unit tests.
     ret
 
-    include "_SET_RESULT_H_.asm"
+    include "SET_RESULT_H_.asm"
     include "TABLE_SCAN_BY_INDEX_PTR.asm"
