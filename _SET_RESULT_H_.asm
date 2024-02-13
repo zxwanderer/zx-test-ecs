@@ -1,7 +1,7 @@
-  MODULE TestSuite_SET_RESULT_
-
   include "lib/zx-core/libs/result/set_result_h.asm"
   include "lib/zx-core/libs/result/set_result.asm"
+
+  MODULE TestSuite_SET_RESULT_
 
 UT_set_C:
   SCF
@@ -16,8 +16,6 @@ UT_reset_C:
   TEST_FLAG_NC
   CALL ret_true
   TEST_FLAG_C
-  
   TC_END
-
 
   ENDMODULE
