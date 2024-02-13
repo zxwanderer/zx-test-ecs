@@ -4,7 +4,7 @@
 ; Collects and executes all unit tests.
 ;========================================================
 
-    include "unit_tests.inc"
+    include "helpers/unit_tests.inc"
 
 ; Initialization routine called before all unit tests are
 ; started.
