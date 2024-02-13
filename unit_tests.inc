@@ -257,7 +257,6 @@
         nop ; TEST ASSERTION L == 0x99
     ENDM
 
-
     ; Macro to test flags for Z.
     ; Testcase fails for NZ.
     MACRO TEST_FLAG_Z
@@ -271,6 +270,19 @@
         nop ; TEST ASSERTION (F & 0x40) == 0
     ENDM
 
+
+    ; Macro to test flags for C.
+    ; Testcase fails for CZ.
+    MACRO TEST_FLAG_C
+        nop ; TEST ASSERTION F & 0x01
+    ENDM
+
+
+    ; Macro to test flags for NC.
+    ; Testcase fails for C.
+    MACRO TEST_FLAG_NC
+        nop ; TEST ASSERTION (F & 0x01) == 0
+    ENDM
 
     ; This macro uses all registers, also the shadow registers.
     MACRO USE_ALL_REGS

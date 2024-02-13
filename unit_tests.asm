@@ -18,7 +18,8 @@
     ; for the unit tests.
     ret
 
-    include "TABLE_SCAN_BY_INDEX_PTR.asm"
+    ; include "TABLE_SCAN_BY_INDEX_PTR.asm"
+    include "_SET_RESULT_H_.asm"
 
     MODULE TestSuite_ClearScreen
 
