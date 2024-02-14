@@ -16,6 +16,6 @@ main:
   jr .loop
   
   include "unit_tests.asm"
-  include "helpers/stack.asm"
+  ; include "helpers/stack.asm"
 
   SAVESNA "z80-sample-program.sna", main

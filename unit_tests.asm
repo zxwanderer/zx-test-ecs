@@ -4,7 +4,8 @@
 ; Collects and executes all unit tests.
 ;========================================================
 
-    include "helpers/unit_tests.inc"
+    include "lib/zx-core/libs/unit-tests/stack.asm"
+    include "lib/zx-core/libs/unit-tests/unit_tests.inc"
 
 ; Initialization routine called before all unit tests are
 ; started.
