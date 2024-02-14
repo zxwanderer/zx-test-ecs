@@ -12,7 +12,8 @@ name? equ @__component_number__
 ; аттрибуты - однобайтовые параметры
   DefineAttribute Breakable ; разбивается
   DefineAttribute Standable ; можно встать на предмет
-  DefineAttribute Tools
+  DefineAttribute Pickable  ; можно взять предмет
+  DefineAttribute Wearable  ; можно одеть предмет
   DefineAttribute Door
 
 ; Entity:
