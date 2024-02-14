@@ -6,6 +6,8 @@
   org #6000
 
   include "helpers/defines.inc"
+  include "ecs.asm"
+
 main:
   ld sp, stack_top
   xor a
