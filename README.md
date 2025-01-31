@@ -6,3 +6,4 @@ Unit test for zx-core and others
 
 # пробы ECS
 
+Inspired by [Space station 14](https://docs.spacestation14.com/en/ss14-by-example/adding-a-simple-bikehorn.html)
